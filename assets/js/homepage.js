@@ -20,6 +20,9 @@ var getUserRepos = function(user) {
     } else {
       alert("Error: " + response.statusText);
     }
+  })
+  .catch(function(error) {
+    alert("Unable to connect to GitHub");
   });
 };
 
