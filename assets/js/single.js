@@ -1,5 +1,5 @@
 var repoNameEl = document.querySelector("#repo-name");
-var issueContainerEl = document.querySelector("#issues-container");
+var issueContainerEl = document.querySelector("#issue-container");
 var limitWarningEl = document.querySelector("#limit-warning");
 
 var getRepoIssues = function(repo) {
